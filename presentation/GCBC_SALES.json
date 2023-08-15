@@ -1,0 +1,13 @@
+{
+  "subjectArea" : {
+    "name" : "GCBC_SALES",
+    "sourceBusinessModel" : "businessModel:GCBC_SALES",
+    "tableOrder" : [ {
+      "name" : "presentationTable:GCBC_SALES.Date"
+    }, {
+      "name" : "presentationTable:GCBC_SALES.D2 Products"
+    }, {
+      "name" : "presentationTable:GCBC_SALES.F1 Orders"
+    } ]
+  }
+}

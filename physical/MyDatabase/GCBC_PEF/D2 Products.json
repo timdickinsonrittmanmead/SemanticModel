@@ -1,0 +1,14 @@
+{
+  "physicalTable": {
+    "name": "D2 Products",
+    "sourceTable": "physicalTable:MyDatabase.GCBC_PEF.DIM_PRODUCTS",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "PRODUCT_KEY"
+      ]
+    ]
+  }
+}

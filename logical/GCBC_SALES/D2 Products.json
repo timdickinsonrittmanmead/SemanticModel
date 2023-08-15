@@ -1,0 +1,144 @@
+{
+  "logicalTable" : {
+    "name" : "D2 Products",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "PRODUCT_KEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D2 Products",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D2 Products.PRODUCT_KEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PRODUCT_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D2 Products",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D2 Products.PRODUCT_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PRODUCT_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D2 Products",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D2 Products.PRODUCT_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PRODUCT_TYPE_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D2 Products",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D2 Products.PRODUCT_TYPE_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PRODUCT_TYPE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D2 Products",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D2 Products.PRODUCT_TYPE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PRODUCT_CATEGORY_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D2 Products",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D2 Products.PRODUCT_CATEGORY_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PRODUCT_CATEGORY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D2 Products",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D2 Products.PRODUCT_CATEGORY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SUPPLIER_KEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D2 Products",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D2 Products.SUPPLIER_KEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PRODUCT_CREATED_DATE",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D2 Products",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D2 Products.PRODUCT_CREATED_DATE" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "D2 Products",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:MyDatabase.GCBC_PEF.D2 Products" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "primaryKey" : [ "PRODUCT_KEY" ]
+  }
+}

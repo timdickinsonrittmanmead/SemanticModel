@@ -1,0 +1,23 @@
+{
+  "physicalTable": {
+    "name": "D3 Customers",
+    "sourceTable": "physicalTable:MyDatabase.BISAMPLE.SAMP_CUSTOMERS_D",
+    "caching": {
+      "enable": true
+    },
+    "joins": [      {
+        "rightTable": "physicalTable:MyDatabase.BISAMPLE.D4 Addresses",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.ADDRESS_KEY",
+            "rightColumn": "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.ADDRESS_KEY"
+          }
+        ]
+      }
+    ],
+    "additionalKeys": [
+      [
+        "CUST_KEY"
+      ]
+    ]
+  }
+}

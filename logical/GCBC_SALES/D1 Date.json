@@ -1,0 +1,326 @@
+{
+  "logicalTable" : {
+    "name" : "D1 Date",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "DIM_DATE_KEY",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.DIM_DATE_KEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DAY_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.DAY_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DAY_NUMBER_IN_WEEK",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.DAY_NUMBER_IN_WEEK" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DAY_NUMBER_IN_MONTH",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.DAY_NUMBER_IN_MONTH" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DAY_NUMBER_IN_YEAR",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.DAY_NUMBER_IN_YEAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CALENDAR_WEEK_NUMBER",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.CALENDAR_WEEK_NUMBER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "WEEK_START_DATE",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.WEEK_START_DATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CALENDAR_MONTH_NUMBER",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.CALENDAR_MONTH_NUMBER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DAYS_IN_CAL_MONTH",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.DAYS_IN_CAL_MONTH" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "END_OF_CAL_MONTH",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.END_OF_CAL_MONTH" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CALENDAR_MONTH_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.CALENDAR_MONTH_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DAYS_IN_CAL_QUARTER",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.DAYS_IN_CAL_QUARTER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "QUARTER_START_DATE",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.QUARTER_START_DATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "QUARTER_END_DATE",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.QUARTER_END_DATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CALENDAR_QUARTER_NUMBER",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.CALENDAR_QUARTER_NUMBER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CALENDAR_YEAR",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.CALENDAR_YEAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DAYS_IN_CAL_YEAR",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.DAYS_IN_CAL_YEAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "BEG_OF_CAL_YEAR",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.BEG_OF_CAL_YEAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "END_OF_CAL_YEAR",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.END_OF_CAL_YEAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "FISCAL_YEAR",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.FISCAL_YEAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "FISCAL_QUARTER",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.FISCAL_QUARTER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "FISCAL_MONTH",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D1 Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.FISCAL_MONTH" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "D1 Date",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:MyDatabase.GCBC_PEF.D1 Date" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "primaryKey" : [ "DIM_DATE_KEY" ]
+  }
+}

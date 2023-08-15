@@ -1,0 +1,26 @@
+{
+  "physicalTable": {
+    "name": "F1 Orders",
+    "sourceTable": "physicalTable:MyDatabase.GCBC_PEF.FACT_ORDER_LINE",
+    "caching": {
+      "enable": true
+    },
+    "joins": [      {
+        "rightTable": "physicalTable:MyDatabase.GCBC_PEF.D1 Date",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:MyDatabase.GCBC_PEF.F1 Orders.SALE_ORDER_DATE_KEY",
+            "rightColumn": "physicalColumn:MyDatabase.GCBC_PEF.D1 Date.DIM_DATE_KEY"
+          }
+        ]
+      },
+      {
+        "rightTable": "physicalTable:MyDatabase.GCBC_PEF.D2 Products",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:MyDatabase.GCBC_PEF.F1 Orders.PRODUCT_KEY",
+            "rightColumn": "physicalColumn:MyDatabase.GCBC_PEF.D2 Products.PRODUCT_KEY"
+          }
+        ]
+      }
+    ]
+  }
+}

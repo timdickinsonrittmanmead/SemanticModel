@@ -1,0 +1,121 @@
+{
+  "physicalTable" : {
+    "name" : "DIM_DATE",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "DIM_DATE_KEY",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DAY_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 36,
+      "nullable" : true
+    }, {
+      "name" : "DAY_NUMBER_IN_WEEK",
+      "dataType" : "VARCHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "DAY_NUMBER_IN_MONTH",
+      "dataType" : "VARCHAR",
+      "length" : 2,
+      "nullable" : true
+    }, {
+      "name" : "DAY_NUMBER_IN_YEAR",
+      "dataType" : "VARCHAR",
+      "length" : 3,
+      "nullable" : true
+    }, {
+      "name" : "CALENDAR_WEEK_NUMBER",
+      "dataType" : "VARCHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "WEEK_START_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CALENDAR_MONTH_NUMBER",
+      "dataType" : "VARCHAR",
+      "length" : 2,
+      "nullable" : true
+    }, {
+      "name" : "DAYS_IN_CAL_MONTH",
+      "dataType" : "VARCHAR",
+      "length" : 2,
+      "nullable" : true
+    }, {
+      "name" : "END_OF_CAL_MONTH",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CALENDAR_MONTH_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 36,
+      "nullable" : true
+    }, {
+      "name" : "DAYS_IN_CAL_QUARTER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "QUARTER_START_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "QUARTER_END_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CALENDAR_QUARTER_NUMBER",
+      "dataType" : "VARCHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "CALENDAR_YEAR",
+      "dataType" : "VARCHAR",
+      "length" : 4,
+      "nullable" : true
+    }, {
+      "name" : "DAYS_IN_CAL_YEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "BEG_OF_CAL_YEAR",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "END_OF_CAL_YEAR",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "FISCAL_YEAR",
+      "dataType" : "VARCHAR",
+      "length" : 4,
+      "nullable" : true
+    }, {
+      "name" : "FISCAL_QUARTER",
+      "dataType" : "VARCHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "FISCAL_MONTH",
+      "dataType" : "VARCHAR",
+      "length" : 2,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

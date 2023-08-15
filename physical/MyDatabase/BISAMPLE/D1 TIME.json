@@ -1,0 +1,14 @@
+{
+  "physicalTable": {
+    "name": "D1 TIME",
+    "sourceTable": "physicalTable:MyDatabase.BISAMPLE.SAMP_TIME_DAY_D",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "CALENDAR_DATE"
+      ]
+    ]
+  }
+}

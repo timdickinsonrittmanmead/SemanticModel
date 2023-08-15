@@ -1,0 +1,14 @@
+{
+  "physicalTable": {
+    "name": "D4 Addresses",
+    "sourceTable": "physicalTable:MyDatabase.BISAMPLE.SAMP_ADDRESSES_D",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "ADDRESS_KEY"
+      ]
+    ]
+  }
+}

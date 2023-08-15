@@ -1,0 +1,14 @@
+{
+  "physicalTable": {
+    "name": "D1 Date",
+    "sourceTable": "physicalTable:MyDatabase.GCBC_PEF.DIM_DATE",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "DIM_DATE_KEY"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "presentationTable" : {
+    "name" : "F1 Orders",
+    "presentationColumns" : [ {
+      "name" : "INTERNET_ORDER_FLAG",
+      "sourceLogicalColumn" : "logicalColumn:GCBC_SALES.F1 Orders.INTERNET_ORDER_FLAG"
+    }, {
+      "name" : "LOYALTY_CARD_FLAG",
+      "sourceLogicalColumn" : "logicalColumn:GCBC_SALES.F1 Orders.LOYALTY_CARD_FLAG"
+    }, {
+      "name" : "QUANTITY",
+      "sourceLogicalColumn" : "logicalColumn:GCBC_SALES.F1 Orders.QUANTITY"
+    }, {
+      "name" : "DISCOUNT",
+      "sourceLogicalColumn" : "logicalColumn:GCBC_SALES.F1 Orders.DISCOUNT"
+    }, {
+      "name" : "UNIT_PRICE",
+      "sourceLogicalColumn" : "logicalColumn:GCBC_SALES.F1 Orders.UNIT_PRICE"
+    }, {
+      "name" : "UNIT_COST",
+      "sourceLogicalColumn" : "logicalColumn:GCBC_SALES.F1 Orders.UNIT_COST"
+    } ]
+  }
+}

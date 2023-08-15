@@ -1,0 +1,15 @@
+{
+  "presentationTable" : {
+    "name" : "Date",
+    "presentationColumns" : [ {
+      "name" : "FISCAL_MONTH",
+      "sourceLogicalColumn" : "logicalColumn:GCBC_SALES.D1 Date.FISCAL_MONTH"
+    }, {
+      "name" : "FISCAL_QUARTER",
+      "sourceLogicalColumn" : "logicalColumn:GCBC_SALES.D1 Date.FISCAL_QUARTER"
+    }, {
+      "name" : "FISCAL_YEAR",
+      "sourceLogicalColumn" : "logicalColumn:GCBC_SALES.D1 Date.FISCAL_YEAR"
+    } ]
+  }
+}

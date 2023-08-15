@@ -1,0 +1,34 @@
+{
+  "physicalTable": {
+    "name": "F1 Revenue",
+    "sourceTable": "physicalTable:MyDatabase.BISAMPLE.SAMP_REVENUE_F",
+    "caching": {
+      "enable": true
+    },
+    "joins": [      {
+        "rightTable": "physicalTable:MyDatabase.BISAMPLE.D1 TIME",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:MyDatabase.BISAMPLE.F1 Revenue.BILL_DAY_DT",
+            "rightColumn": "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.CALENDAR_DATE"
+          }
+        ]
+      },
+      {
+        "rightTable": "physicalTable:MyDatabase.BISAMPLE.D2 Products",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:MyDatabase.BISAMPLE.F1 Revenue.PROD_KEY",
+            "rightColumn": "physicalColumn:MyDatabase.BISAMPLE.D2 Products.PROD_KEY"
+          }
+        ]
+      },
+      {
+        "rightTable": "physicalTable:MyDatabase.BISAMPLE.D3 Customers",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:MyDatabase.BISAMPLE.F1 Revenue.CUST_KEY",
+            "rightColumn": "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.CUST_KEY"
+          }
+        ]
+      }
+    ]
+  }
+}

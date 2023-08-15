@@ -1,0 +1,18 @@
+{
+  "presentationTable" : {
+    "name" : "D2 Products",
+    "presentationColumns" : [ {
+      "name" : "PRODUCT_NAME",
+      "sourceLogicalColumn" : "logicalColumn:GCBC_SALES.D2 Products.PRODUCT_NAME"
+    }, {
+      "name" : "PRODUCT_TYPE",
+      "sourceLogicalColumn" : "logicalColumn:GCBC_SALES.D2 Products.PRODUCT_TYPE"
+    }, {
+      "name" : "PRODUCT_CATEGORY",
+      "sourceLogicalColumn" : "logicalColumn:GCBC_SALES.D2 Products.PRODUCT_CATEGORY"
+    }, {
+      "name" : "PRODUCT_CREATED_DATE",
+      "sourceLogicalColumn" : "logicalColumn:GCBC_SALES.D2 Products.PRODUCT_CREATED_DATE"
+    } ]
+  }
+}
