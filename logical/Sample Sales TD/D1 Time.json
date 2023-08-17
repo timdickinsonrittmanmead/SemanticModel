@@ -2,6 +2,7 @@
   "logicalTable" : {
     "name" : "D1 Time",
     "type" : "DIMENSION",
+    "primaryKey" : [ "Calendar Date" ],
     "logicalColumns" : [ {
       "name" : "Calendar Date",
       "dataType" : "DATETIME",
@@ -15,7 +16,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.CALENDAR_DATE" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Day Key",
       "dataType" : "NUMERIC",
@@ -29,7 +31,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.DAY_KEY" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Cal Half",
       "dataType" : "NUMERIC",
@@ -43,7 +46,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.CAL_HALF" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Half Year"
     }, {
       "name" : "Cal Month",
       "dataType" : "NUMERIC",
@@ -57,7 +61,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.CAL_MONTH" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Month"
     }, {
       "name" : "Cal Qtr",
       "dataType" : "NUMERIC",
@@ -71,7 +76,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.CAL_QTR" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Cal Week",
       "dataType" : "NUMERIC",
@@ -85,7 +91,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.CAL_WEEK" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Week"
     }, {
       "name" : "Cal Year",
       "dataType" : "NUMERIC",
@@ -99,7 +106,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.CAL_YEAR" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Year"
     }, {
       "name" : "Day Of Month",
       "dataType" : "NUMERIC",
@@ -113,7 +121,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.DAY_OF_MONTH" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Day Of Week",
       "dataType" : "NUMERIC",
@@ -127,7 +136,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.DAY_OF_WEEK" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Day Of Year",
       "dataType" : "NUMERIC",
@@ -141,7 +151,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.DAY_OF_YEAR" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Fscl Half",
       "dataType" : "NUMERIC",
@@ -155,7 +166,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.FSCL_HALF" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Fscl Month",
       "dataType" : "NUMERIC",
@@ -169,7 +181,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.FSCL_MONTH" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Fscl Qtr",
       "dataType" : "NUMERIC",
@@ -183,7 +196,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.FSCL_QTR" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Fscl Week",
       "dataType" : "NUMERIC",
@@ -197,7 +211,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.FSCL_WEEK" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Fscl Year",
       "dataType" : "NUMERIC",
@@ -211,7 +226,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.FSCL_YEAR" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Julian Day Num",
       "dataType" : "NUMERIC",
@@ -225,7 +241,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.JULIAN_DAY_NUM" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Julian Month Num",
       "dataType" : "NUMERIC",
@@ -239,7 +256,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.JULIAN_MONTH_NUM" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Julian Qtr Num",
       "dataType" : "NUMERIC",
@@ -253,7 +271,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.JULIAN_QTR_NUM" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Julian Week Num",
       "dataType" : "NUMERIC",
@@ -267,7 +286,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.JULIAN_WEEK_NUM" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Per Name Half",
       "dataType" : "VARCHAR",
@@ -281,7 +301,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.PER_NAME_HALF" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Half Year"
     }, {
       "name" : "Per Name Month",
       "dataType" : "VARCHAR",
@@ -295,7 +316,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.PER_NAME_MONTH" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Month"
     }, {
       "name" : "Per Name Qtr",
       "dataType" : "VARCHAR",
@@ -309,7 +331,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.PER_NAME_QTR" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Per Name Week",
       "dataType" : "VARCHAR",
@@ -323,7 +346,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.PER_NAME_WEEK" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Week"
     }, {
       "name" : "Per Name Year",
       "dataType" : "VARCHAR",
@@ -337,7 +361,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.PER_NAME_YEAR" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Year"
     }, {
       "name" : "Days In Qtr",
       "dataType" : "NUMERIC",
@@ -351,7 +376,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.DAYS_IN_QTR" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Days In Mth",
       "dataType" : "NUMERIC",
@@ -365,7 +391,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.DAYS_IN_MTH" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Beg Of Qtr Wid",
       "dataType" : "NUMERIC",
@@ -379,7 +406,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.BEG_OF_QTR_WID" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Beg Of Mth Wid",
       "dataType" : "NUMERIC",
@@ -393,7 +421,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.BEG_OF_MTH_WID" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Beg Of Week Wid",
       "dataType" : "NUMERIC",
@@ -407,7 +436,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.BEG_OF_WEEK_WID" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Holiday",
       "dataType" : "NUMERIC",
@@ -421,7 +451,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.HOLIDAY" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Loaded",
       "dataType" : "NUMERIC",
@@ -435,7 +466,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.LOADED" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Cal Month End Date",
       "dataType" : "DATETIME",
@@ -449,7 +481,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.CAL_MONTH_END_DATE" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Cal Qtr End Date",
       "dataType" : "DATETIME",
@@ -463,7 +496,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.CAL_QTR_END_DATE" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Cal Half Year End Date",
       "dataType" : "DATETIME",
@@ -477,7 +511,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.CAL_HALF_YEAR_END_DATE" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Cal Year End Date",
       "dataType" : "DATETIME",
@@ -491,7 +526,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.CAL_YEAR_END_DATE" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Fscl Month End Date",
       "dataType" : "DATETIME",
@@ -505,7 +541,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.FSCL_MONTH_END_DATE" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Fscl Qtr End Date",
       "dataType" : "DATETIME",
@@ -519,7 +556,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.FSCL_QTR_END_DATE" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Fscl Year End Date",
       "dataType" : "DATETIME",
@@ -533,7 +571,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.FSCL_YEAR_END_DATE" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Cal Week End Date",
       "dataType" : "DATETIME",
@@ -547,7 +586,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.CAL_WEEK_END_DATE" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Fscl Week End Date",
       "dataType" : "DATETIME",
@@ -561,7 +601,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.FSCL_WEEK_END_DATE" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Days In Week",
       "dataType" : "NUMERIC",
@@ -575,7 +616,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.DAYS_IN_WEEK" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Days In Half Year",
       "dataType" : "NUMERIC",
@@ -589,7 +631,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.DAYS_IN_HALF_YEAR" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Days In Year",
       "dataType" : "NUMERIC",
@@ -603,7 +646,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.DAYS_IN_YEAR" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Days In Fscl Week",
       "dataType" : "NUMERIC",
@@ -617,7 +661,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.DAYS_IN_FSCL_WEEK" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Days In Fscl Month",
       "dataType" : "NUMERIC",
@@ -631,7 +676,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.DAYS_IN_FSCL_MONTH" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Days In Fscl Qtr",
       "dataType" : "NUMERIC",
@@ -645,7 +691,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.DAYS_IN_FSCL_QTR" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Days In Fscl Half Year",
       "dataType" : "NUMERIC",
@@ -659,7 +706,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.DAYS_IN_FSCL_HALF_YEAR" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Days In Fscl Year",
       "dataType" : "NUMERIC",
@@ -673,7 +721,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.DAYS_IN_FSCL_YEAR" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     }, {
       "name" : "Total Value",
       "dataType" : "VARCHAR",
@@ -687,7 +736,8 @@
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D1 TIME.TOTAL_VALUE" ]
           }
         } ]
-      }
+      },
+      "logicalLevel" : "Detail"
     } ],
     "logicalTableSources" : [ {
       "name" : "LTS1 TIME",
@@ -699,6 +749,66 @@
       "enableFragmentSelection" : false,
       "distinctValues" : false
     } ],
-    "primaryKey" : [ "Calendar Date" ]
+    "hierarchyType" : "TIME",
+    "levelBasedHierarchy" : {
+      "defaultRootLevel" : "Total",
+      "logicalLevels" : [ {
+        "name" : "Total",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : true,
+        "disableAggregateToHigherLevel" : false
+      }, {
+        "name" : "Detail",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Calendar Date" ],
+        "displayKey" : "Calendar Date"
+      }, {
+        "name" : "Year",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Cal Year", "Per Name Year" ],
+        "displayKey" : "Cal Year",
+        "chronologicalKey" : [ "Per Name Year" ]
+      }, {
+        "name" : "Half Year",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Cal Half", "Per Name Half" ],
+        "displayKey" : "Cal Half",
+        "chronologicalKey" : [ "Per Name Half" ]
+      }, {
+        "name" : "Qtr",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Cal Qtr", "Per Name Qtr" ],
+        "displayKey" : "Cal Qtr",
+        "chronologicalKey" : [ "Per Name Qtr" ]
+      }, {
+        "name" : "Month",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Cal Month", "Per Name Month" ],
+        "displayKey" : "Cal Month",
+        "chronologicalKey" : [ "Per Name Month" ]
+      }, {
+        "name" : "Week",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Cal Week", "Per Name Week" ],
+        "displayKey" : "Cal Week",
+        "chronologicalKey" : [ "Per Name Week" ]
+      } ],
+      "logicalHierarchies" : [ {
+        "name" : "H1",
+        "levels" : [ "Total", "Year", "Half Year", "Qtr", "Month", "Week", "Detail" ]
+      } ]
+    }
   }
 }
