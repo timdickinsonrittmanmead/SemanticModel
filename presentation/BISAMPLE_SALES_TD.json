@@ -10,6 +10,8 @@
       "name" : "presentationTable:BISAMPLE_SALES_TD.Customers"
     }, {
       "name" : "presentationTable:BISAMPLE_SALES_TD.Base Facts"
+    }, {
+      "name" : "presentationTable:BISAMPLE_SALES_TD.Customer Regions"
     } ]
   }
 }

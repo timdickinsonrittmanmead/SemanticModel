@@ -1,0 +1,36 @@
+{
+  "presentationTable" : {
+    "name" : "Customer Regions",
+    "presentationColumns" : [ {
+      "name" : "Address1",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales TD.D3 Customers.Address1"
+    }, {
+      "name" : "Address2",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales TD.D3 Customers.Address2"
+    }, {
+      "name" : "Area",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales TD.D3 Customers.Area"
+    }, {
+      "name" : "City",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales TD.D3 Customers.City"
+    }, {
+      "name" : "Country Name",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales TD.D3 Customers.Country Name"
+    }, {
+      "name" : "Estab Name",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales TD.D3 Customers.Estab Name"
+    }, {
+      "name" : "Postal Code",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales TD.D3 Customers.Postal Code"
+    }, {
+      "name" : "Region",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales TD.D3 Customers.Region"
+    }, {
+      "name" : "State Province",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales TD.D3 Customers.State Province"
+    }, {
+      "name" : "State Province Abbrv",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales TD.D3 Customers.State Province Abbrv"
+    } ]
+  }
+}

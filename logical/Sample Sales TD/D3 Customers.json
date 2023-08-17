@@ -10,7 +10,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.CUST_KEY" ]
@@ -24,7 +24,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.NAME" ]
@@ -38,7 +38,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.TYPE_KEY" ]
@@ -52,7 +52,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.FST_CONTACT_DT" ]
@@ -66,7 +66,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.SEGMENT_KEY" ]
@@ -80,7 +80,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.INCOME_LVL" ]
@@ -94,7 +94,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.STATUS_KEY" ]
@@ -108,7 +108,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.LST_ORDER_DT" ]
@@ -122,7 +122,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.ADDRESS_KEY" ]
@@ -136,7 +136,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.MARITAL_ST" ]
@@ -150,7 +150,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.PREV_MARITAL_ST" ]
@@ -164,7 +164,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.PREV_MARITAL_ST_DT" ]
@@ -178,7 +178,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.BIRTH_DT" ]
@@ -192,7 +192,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.CRDT_RATE" ]
@@ -206,7 +206,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.GENDER" ]
@@ -220,7 +220,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.LTV" ]
@@ -234,7 +234,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.NUM_ATTRIBUTE" ]
@@ -248,7 +248,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D3 Customers.TOTAL_VALUE" ]
@@ -262,7 +262,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.ADDRESS1" ]
@@ -276,7 +276,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.ADDRESS2" ]
@@ -290,7 +290,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.POSTAL_CODE" ]
@@ -304,7 +304,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.CITY" ]
@@ -318,7 +318,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.STATE_PROVINCE" ]
@@ -332,7 +332,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.CTRY_CD3_STATE_NAME" ]
@@ -346,7 +346,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.CTRY_CD3_STATE_ABBRV" ]
@@ -360,7 +360,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.CTRY_CD3_STATE_NAME_CITY" ]
@@ -374,7 +374,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.LONGITUDE" ]
@@ -388,7 +388,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.LATITUDE" ]
@@ -402,7 +402,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.ESTAB_NAME" ]
@@ -416,7 +416,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.REGION" ]
@@ -430,7 +430,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.ISO_COUNTRY_CODE3" ]
@@ -444,7 +444,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.COUNTRY_NAME" ]
@@ -458,7 +458,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.STATE_PROVINCE_ABBRV" ]
@@ -472,7 +472,7 @@
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
         "physicalMappings" : [ {
-          "logicalTableSource" : "D3 Customers",
+          "logicalTableSource" : "LTS1 Customers",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:MyDatabase.BISAMPLE.D4 Addresses.AREA" ]
@@ -481,7 +481,7 @@
       }
     } ],
     "logicalTableSources" : [ {
-      "name" : "D3 Customers",
+      "name" : "LTS1 Customers",
       "disable" : false,
       "tableMapping" : {
         "tables" : [ "physicalTable:MyDatabase.BISAMPLE.D3 Customers", "physicalTable:MyDatabase.BISAMPLE.D4 Addresses" ],
